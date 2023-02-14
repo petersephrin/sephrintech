@@ -1,0 +1,27 @@
+<style>
+
+</style>
+
+<body>
+
+    <div>
+        <div class="mdl-grid">
+            <a href="https://sephrinart.com"id="sephrinart" onmouseover="displayTitle(this)" class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--4dp" style="background: url('images/materiallogosephrinart.png') center;
+            background-size: contain;
+            background-repeat-y: no-repeat;
+            background-repeat-x: no-repeat;">
+                
+        </a>
+            <a href="https://play.google.com/store/apps/details?id=com.petersephrin.spreedit" class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--4dp" style="background: url('images/SPREEDITLOGO.png') center / cover;background-repeat:no-repeat;">
+
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.petersafari.life_motivation" class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--4dp" style="background: url('images/qouteslogo.svg') center / contain;background-repeat:no-repeat;">
+
+            </a>
+            <div class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--4dp" style="background: url('images/trippleslogo.svg') center / contain;background-repeat:no-repeat;">
+
+            </div>
+
+        </div>
+    </div>
+</body>

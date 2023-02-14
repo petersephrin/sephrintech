@@ -1,0 +1,309 @@
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" style="height: max-content">
+    <header id="header" class="header mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title text-color-gradient" style="font-weight: bold; text-shadow: 3px 2px 8px #072014">
+          <img src="images/favicon-32x32.png" />
+          Sephrin Tech
+        </span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link " id="homelink" href="/portfolio" tabindex="0">Portfolio
+          </a>
+          <a class="mdl-navigation__link" onclick="activateLink(this)" id="faqslink" href="/about">About Me</a>
+          <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact">
+            <button type="button" class="mdl-chip">
+              <span class="mdl-chip__text">Get a Quote</span>
+            </button>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer" style="display: none; background-color: #131516;border:0px">
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" id="homelink" href="/portfolio" tabindex="0">Portfolio
+        </a>
+        <a class="mdl-navigation__link" onclick="activateLink(this)" id="faqslink" href="/about">About Me</a>
+        <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact">
+          <button type="button" class="mdl-chip">
+            <span class="mdl-chip__text">Get a Quote</span>
+          </button>
+        </a>
+      </nav>
+    </div>
+  </div>
+  <main id="main" class="main mdl-layout__content" style="height: 100vh !important; width: 100%">
+    <video id="background-video" autoplay loop muted poster="/images/columns.jpg">
+      <source src="images/video (4).mp4" type="video/mp4">
+    </video>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+      <div class="carousel-inner" style="width: 100%; height: 100vh !important">
+        <div class="carousel-item active" style="
+              background-repeat: no-repeat !important;
+              background-size: cover;
+              height: 100vh !important;
+              background-position: center;
+              box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.66);
+            ">
+          <div class="container wdbcon" style="
+                margin-top: 10%;
+                margin-left: 24px;
+                width: auto;
+                margin-right: 24px;
+              ">
+            <div class="row flex-v-center">
+              <div class="col-md-8 col-lg-7 col-sm-12 col-xs-12" style="margin: auto">
+                <div class="welcome-text">
+                  <h1 class="animate__animated animate__fadeInUp animate__delay-1s">
+                    <span class="text-flicker-in-glow text-color-gradient"> Looking For A Web|App Developer?</span>
+                  </h1>
+                  <p class="animate__animated animate__fadeInUp animate__delay-2s"
+                    style="line-height:2;letter-spacing:1px">
+                    Look no further! I am Peter Safari. An experienced developer with a passion
+                    for creating innovative and user-friendly websites and mobile applications.
+                    Let's work together to bring your vision to life and create a website or mobile app
+                    that exceeds your expectations.
+                    Contact me today to discuss your project and learn more about my services.
+
+                  </p>
+
+                  <div class="animate__animated animate__fadeInUp animate__delay-3s">
+                    <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact">
+                      <button type="button" class="mdl-chip">
+                        <span class="mdl-chip__text">Let's Do This</span>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <section style="margin-top: 56px;">
+        <h1 class="sectiontitle" style="margin: auto;">Website Development</h1>
+        <div class="mdl-grid" style="justify-content: center;">
+          <div class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--4dp" style="border-radius: 8px;min-height: 400px;">
+            <div class="mdl-card__title"
+              style="height:150px;background: url('images/pexels-jakub-novacek-thanks.jpg') center / cover;">
+              <h2 class="mdl-card__title-text" style="color:white;font-weight: 500;font-size: 24px;">
+                #1 Basic Website
+              </h2>
+
+            </div>
+
+            <div class="mdl-card__supporting-text" style="justify-content: center;width:auto">
+              <div style="font-size: 20px;font-weight: 700;color: black;margin: 16px;"> $200 USD | KSH 25000</div><br>
+
+              <span style="line-height: 36px;color: black;">
+                5 website pages<br>
+                Free hosting (No monthly hosting fees)<br>
+                Search Engine Optimization(SEO)<br>
+                2 Free updates<br>
+                No database <br>
+
+              </span>
+            </div>
+            <div style="justify-content: center;display: flex;margin: 16px;">
+              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact/plan/1">
+                <button type="button" class="mdl-chip mdl-shadow--4dp">
+                  <span class="mdl-chip__text">Get Started</span>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--4dp" style="border-radius: 8px;min-height: 400px;">
+            <div class="mdl-card__title"
+              style="height:150px;background: url('images/pexels-jakub-novacek-thanks.jpg') center / cover;">
+              <h2 class="mdl-card__title-text" style="color:white;font-weight: 500;font-size: 24px;">
+                #1 Project Website
+              </h2>
+
+            </div>
+
+            <div class="mdl-card__supporting-text" style="justify-content: center;width:auto">
+              <div style="font-size: 20px;font-weight: 700;color: black;margin: 16px;"> $400+ USD | KSH 50000+</div><br>
+
+              <span style="line-height: 36px;color: black;">
+                10 website pages<br>
+                Free hosting(depending on amount of data)<br>
+                Search Engine Optimization(SEO)<br>
+                2 Free updates<br>
+                Social Media login<br>
+                Admin Dashboard
+                Database <br>
+                <i>Perfect for blogs and small ecommerce sites</i>
+              </span>
+            </div>
+            <div style="justify-content: center;display: flex;margin: 16px;">
+              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact/plan/2">
+                <button type="button" class="mdl-chip mdl-shadow--4dp">
+                  <span class="mdl-chip__text">Get Started</span>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--4dp" style="border-radius: 8px;min-height: 400px;">
+            <div class="mdl-card__title"
+              style="height:150px;background: url('images/pexels-jakub-novacek-thanks.jpg') center / cover;">
+              <h2 class="mdl-card__title-text" style="color:white;font-weight: 500;font-size: 24px;">
+                #1 Enterprise Website
+              </h2>
+
+            </div>
+
+            <div class="mdl-card__supporting-text" style="justify-content: center;width:auto">
+              <div style="font-size: 20px;font-weight: 700;color: black;margin: 16px;"> $800+ USD | KSH 100,000+</div><br>
+
+              <span style="line-height: 36px;color: black;">
+                Unlimited website pages<br>
+                Custom database(depending on use)<br>
+                Search Engine Optimization(SEO)<br>
+                3 Free maintenance<br>
+                Social Media login for users <br>
+                Payment channels<br>
+
+                <i>Perfect for ecommerce sites and platforms</i>
+              </span>
+            </div>
+            <div style="justify-content: center;display: flex;margin: 16px;">
+              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact/plan/3">
+                <button type="button" class="mdl-chip mdl-shadow--4dp">
+                  <span class="mdl-chip__text">Get Started</span>
+                </button>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section>
+        <h1 class="sectiontitle" style="margin: auto;">Mobile App Development</h1>
+        <div class="mdl-grid" style="justify-content: center;">
+          <div class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--4dp" style="border-radius: 8px;min-height: 400px;">
+            <div class="mdl-card__title"
+              style="height:150px;background: url('images/pexels-emre-can-acer-thanks.jpg') center / cover;">
+              <h2 class="mdl-card__title-text" style="color:white;font-weight: 500;font-size: 24px;">
+                #1 Basic Mobile App
+              </h2>
+
+            </div>
+
+            <div class="mdl-card__supporting-text" style="justify-content: center;width:auto">
+              <div style="font-size: 20px;font-weight: 700;color: black;margin: 16px;"> $200 USD | KSH 25000</div><br>
+
+              <span style="line-height: 36px;color: black;">
+                1 functionality<br>
+                1 platform support(Android or iOS)<br>
+                Upload to app store or play store<br>
+                Code included<br>
+                50% Ad revenue <br>
+                No database
+              </span>
+            </div>
+            <div style="justify-content: center;display: flex;margin: 16px;">
+              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact/plan/4">
+                <button type="button" class="mdl-chip mdl-shadow--4dp">
+                  <span class="mdl-chip__text">Get Started</span>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--4dp" style="border-radius: 8px;min-height: 400px;">
+            <div class="mdl-card__title"
+              style="height:150px;background: url('images/pexels-emre-can-acer-thanks.jpg') center / cover;">
+              <h2 class="mdl-card__title-text" style="color:white;font-weight: 500;font-size: 24px;">
+                #1 Project Mobile App
+              </h2>
+
+            </div>
+
+            <div class="mdl-card__supporting-text" style="justify-content: center;width:auto">
+              <div style="font-size: 20px;font-weight: 700;color: black;margin: 16px;"> $400+ USD | KSH 50000+</div><br>
+
+              <span style="line-height: 36px;color: black;">
+                2-3 functionality<br>
+                2 platforms (iOS and Android)<br>
+                Upload to appstore and playstore<br>
+                1 Free update<br>
+                Social Media login<br>
+                Database (Firebase) <br>
+                50% Ad and subscription revenue<br>
+                <i>Perfect for games and serverless apps</i>
+              </span>
+            </div>
+            <div style="justify-content: center;display: flex;margin: 16px;">
+              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact/plan/5">
+                <button type="button" class="mdl-chip mdl-shadow--4dp">
+                  <span class="mdl-chip__text">Get Started</span>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--4dp" style="border-radius: 8px;min-height: 400px;">
+            <div class="mdl-card__title"
+              style="height:150px;background: url('images/pexels-emre-can-acer-thanks.jpg') center / cover;">
+              <h2 class="mdl-card__title-text" style="color:white;font-weight: 500;font-size: 24px;">
+                #1 Enterprise Mobile App
+              </h2>
+
+            </div>
+
+            <div class="mdl-card__supporting-text" style="justify-content: center;width:auto">
+              <div style="font-size: 20px;font-weight: 700;color: black;margin: 16px;"> $800+ USD | KSH 100,000+</div><br>
+
+              <span style="line-height: 36px;color: black;">
+                Unlimited functionality<br>
+                Custom database and api(depending on use)<br>
+                2 Free maintenance<br>
+                Social Media login<br>
+                Payment channels<br>
+                In app purchases<br>
+                Custom split on ad and subscription revenue 
+
+                <i>Perfect for business apps</i>
+              </span>
+            </div>
+            <div style="justify-content: center;display: flex;margin: 16px;">
+              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact/plan/6">
+                <button type="button" class="mdl-chip mdl-shadow--4dp">
+                  <span class="mdl-chip__text">Get Started</span>
+                </button>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+  </main>
+</body>
+<script>
+
+  var className = "inverted";
+  var scrollTrigger = 60;
+  var main = document.getElementById("main");
+  main.onscroll = function () {
+    if (main.scrollTop >= scrollTrigger) {
+      document.getElementById("header").classList.add(className);
+    } else {
+      document.getElementById("header").classList.remove(className);
+    }
+  };
+
+  var currentActiveLink = document.getElementById("homelink");
+  var featureslink = document.getElementById("featureslink");
+
+
+
+  function activateLink(element) {
+    currentActiveLink.classList.remove("activelink");
+    element.classList.add("activelink");
+    currentActiveLink = element;
+  }
+
+</script>
