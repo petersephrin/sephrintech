@@ -1,6 +1,6 @@
 <body style="display: flex;">
     <div class="mdl-card" style="background-color: transparent;align-self: center;margin: auto;">
-        <form class="form-signin" style="padding: 10px;">
+        <form role="form" enctype="multipart/form-data" method="POST" action="/contact" class="form-signin" style="padding: 10px;">
             <div class="text-center mb-4">
               <img class="mb-4" src="images/sephrintechicon.png" alt="" width="72" height="72">
               <h1 class="h3 mb-3 font-weight-normal">Request A Qoute Now!</h1>
@@ -8,31 +8,31 @@
             </div>
             
             <div class="form-label-group">
-                <input type="text" id="inputName" class="form-control" placeholder="Name or Company Name" required="true" autofocus="">
-                <label for="inputEmail" style="opacity: 0;">Name or COmpany Name</label>
+                <input type="text" name="inputName" id="inputName" class="form-control" placeholder="Name or Company Name" required="true" autofocus="">
+                <label for="inputName" style="opacity: 0;">Name or COmpany Name</label>
             </div>
 
             <div class="form-label-group">
-              <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="true" autofocus="">
+              <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" required="true" autofocus="">
               <label for="inputEmail" style="opacity: 0;">Email address</label>
             </div>
 
             <div class="form-label-group">
-                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="inputPhone" class="form-control" placeholder="Phone Number" required="true" autofocus="">
+                <input type="tel" name="inputPhone"  id="inputPhone" class="form-control" placeholder="Phone Number" required="true" autofocus="">
                 <label for="inputPhone" style="opacity: 0;">Phone Number</label>
             </div>
             <div class="form-group">
-                <select class="form-control">
+                <select name="projectType" id="projectType" class="form-control">
                     <option selected class="placeholder">Select Type of Project</option>
-                    <option value="1">Website</option>
-                    <option value="2">Mobile App</option>
-                    <option value="3">Both</option>
+                    <option value="website">Website</option>
+                    <option value="mobile-app">Mobile App</option>
+                    <option value="both">Both</option>
                 </select>
 
                 <label for="exampleFormControlSelect1" style="opacity: 0;">Which Platforms</label>
             </div>
             <div class="form-outline mb-4">
-                <textarea class="form-control" id="form4Example3" placeholder="Summary of Project" rows="4"></textarea>
+                <textarea class="form-control" name="projectDescription" id="projectDescription" placeholder="Summary of Project" rows="4"></textarea>
             </div>
       
             <button class="mdl-chip" type="submit"><span class="mdl-chip__text">Send Me a Quote</span></span></button>
