@@ -110,7 +110,7 @@
               </span>
             </div>
             <div style="justify-content: center;display: flex;margin: 16px;">
-              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact/plan/1">
+              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact">
                 <button type="button" class="mdl-chip mdl-shadow--4dp">
                   <span class="mdl-chip__text">Get Started</span>
                 </button>
@@ -141,7 +141,7 @@
               </span>
             </div>
             <div style="justify-content: center;display: flex;margin: 16px;">
-              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact/plan/2">
+              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact">
                 <button type="button" class="mdl-chip mdl-shadow--4dp">
                   <span class="mdl-chip__text">Get Started</span>
                 </button>
@@ -172,7 +172,7 @@
               </span>
             </div>
             <div style="justify-content: center;display: flex;margin: 16px;">
-              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact/plan/3">
+              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact">
                 <button type="button" class="mdl-chip mdl-shadow--4dp">
                   <span class="mdl-chip__text">Get Started</span>
                 </button>
@@ -207,7 +207,7 @@
               </span>
             </div>
             <div style="justify-content: center;display: flex;margin: 16px;">
-              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact/plan/4">
+              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact">
                 <button type="button" class="mdl-chip mdl-shadow--4dp">
                   <span class="mdl-chip__text">Get Started</span>
                 </button>
@@ -238,7 +238,7 @@
               </span>
             </div>
             <div style="justify-content: center;display: flex;margin: 16px;">
-              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact/plan/5">
+              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact">
                 <button type="button" class="mdl-chip mdl-shadow--4dp">
                   <span class="mdl-chip__text">Get Started</span>
                 </button>
@@ -270,7 +270,7 @@
               </span>
             </div>
             <div style="justify-content: center;display: flex;margin: 16px;">
-              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact/plan/6">
+              <a class="mdl-navigation__link" id="contactlink" onclick="activateLink(this)" href="/contact">
                 <button type="button" class="mdl-chip mdl-shadow--4dp">
                   <span class="mdl-chip__text">Get Started</span>
                 </button>
